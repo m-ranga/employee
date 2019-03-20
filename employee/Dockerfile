@@ -3,4 +3,4 @@ COPY src /usr/src/app/src
 COPY pom.xml /usr/src/app
 RUN mvn -f /usr/src/app/pom.xml clean package
 EXPOSE 8082
-ENTRYPOINT ["java","-jar","/usr/src/app/target/employee-get-service-1.0.0.jar"]
+ENTRYPOINT ["java","-jar","/usr/src/app/target/employee0.0.1-SNAPSHOT.jar"]
